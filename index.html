@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PositiveUs</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/Vector.png" type="images/Vector.png">
+  <!-- tailwindcss CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!--Bootstrap icons CDN-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <!--Bootstrap CDN via Js deliver-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="h-[100vh] w-[100%]  overflow-x-hidden">
+  <!--Header Starts-->
+  <!--Navbar Starts-->
+  <div class="relative w-full bg-[#f8f9fa]">
+    <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
+      <!-- LOGO -->
+      <div class="inline-flex items-center space-x-2">
+        <span>
+          <!--  <svg
+              width="30"
+              height="30"
+              viewBox="0 0 50 56"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.2732 0.2528C20.8078 1.18964 2.12023 12.2346 1.08477 13.3686C0 14.552 0 14.7493 0 27.7665C0 39.6496 0.0986153 41.1289 0.83823 42.0164C2.12023 43.5449 23.2239 55.4774 24.6538 55.5267C25.9358 55.576 46.1027 44.3832 48.2229 42.4602C49.3077 41.474 49.3077 41.3261 49.3077 27.8158C49.3077 14.3055 49.3077 14.1576 48.2229 13.1714C46.6451 11.7415 27.1192 0.450027 25.64 0.104874C24.9497 -0.0923538 23.9142 0.00625992 23.2732 0.2528ZM20.2161 21.8989C20.2161 22.4906 18.9835 23.8219 17.0111 25.3997C15.2361 26.7803 13.8061 27.9637 13.8061 28.0623C13.8061 28.1116 15.2361 29.0978 16.9618 30.2319C18.6876 31.3659 20.2655 32.6479 20.4134 33.0917C20.8078 34.0286 19.871 35.2119 18.8355 35.2119C17.8001 35.2119 9.0233 29.3936 8.67815 28.5061C8.333 27.6186 9.36846 26.5338 14.3485 22.885C17.6521 20.4196 18.4904 20.0252 19.2793 20.4196C19.7724 20.7155 20.2161 21.3565 20.2161 21.8989ZM25.6893 27.6679C23.4211 34.9161 23.0267 35.7543 22.1391 34.8668C21.7447 34.4723 22.1391 32.6479 23.6677 27.9637C26.2317 20.321 26.5275 19.6307 27.2671 20.3703C27.6123 20.7155 27.1685 22.7864 25.6893 27.6679ZM36.0932 23.2302C40.6788 26.2379 41.3198 27.0269 40.3337 28.1609C39.1503 29.5909 31.6555 35.2119 30.9159 35.2119C29.9298 35.2119 28.9436 33.8806 29.2394 33.0424C29.3874 32.6479 30.9652 31.218 32.7403 29.8867L35.9946 27.4706L32.5431 25.1532C30.6201 23.9205 29.0915 22.7371 29.0915 22.5892C29.0915 21.7509 30.2256 20.4196 30.9159 20.4196C31.3597 20.4196 33.6771 21.7016 36.0932 23.2302Z"
+                fill="black"
+              ></path>
+            </svg>-->
+          <img src="./images/Logo.png" alt="Logo" class="h-8 ml-20">
+        </span>
+        <!-- <span class="font-bold text-[25px]">Positiveus</span> -->
+      </div>
+      <!-- LOGO -->
+      <!-- LIST ITEMS STARTS -->
+      <div class="hidden lg:block">
+        <ul class="inline-flex space-x-8">
+          <li>
+            <a href="#" class="text-md font-semibold text-gray-800 hover:text-gray-900">
+              About Us
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-md font-semibold text-gray-800 hover:text-gray-900">
+              Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-md font-semibold text-gray-800 hover:text-gray-900">
+              Use cases
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-md font-semibold text-gray-800 hover:text-gray-900">
+              Pricing
+            </a>
+          </li>
+          <li>
+            <a href="#" class="text-md font-semibold text-black hover:text-gray-900">
+              Blog
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- LIST ITEMS ENDS -->
+
+      <!-- Button Starts-- -->
+      <div class="hidden lg:block">
+        <button type="button"
+          class="rounded-full bg-white border-solid border-1 border-black px-3 py-2  text-sm font-semibold text-black shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+
+          request a quote
+        </button>
+      </div>
+      <!-- Button Ends-- -->
+      <div class="lg:hidden">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+          stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+          class="h-6 w-6 cursor-pointer">
+          <line x1="4" y1="12" x2="20" y2="12"></line>
+          <line x1="4" y1="6" x2="20" y2="6"></line>
+          <line x1="4" y1="18" x2="20" y2="18"></line>
+        </svg>
+      </div>
+    </div>
+  </div>
+  <!--Navbar Ends-->
+  <!--Header Ends-->
+
+
+  <!----hero Section-->
+  <div class="relative w-full bg-white mt-14 mb-[150px] ml-10">
+    <!-- Main-Div -->
+    <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+      <!-- Heading ,Paragraph and Button Starts -->
+      <div
+        class="flex flex-col justify-center px-4 py-8 md:py-16 lg:col-span-7 lg:gap-x-4 lg:px-6 lg:py-24 xl:col-span-6">
+        <div class="flex max-w-max items-center space-x-2 p-1">
+
+        </div>
+        <h1 class=" text-3xl font-Space Grotes font-semibold tracking-tight text-Black md:text-4xl lg:text-5xl">
+          Navigation the <br>
+          digital landscape <br>
+          for success
+        </h1>
+        <p class="mt-4 text-[17px] text-black">
+          Our digital marketing agency helps businesses <br>
+          grow and succeed online through a range of <br>
+          services including SEO, PPC, social media marketing,<br> and content creation.
+        </p>
+        <form action="" class="mt-8 flex items-start space-x-2">
+          <div>
+            <button type="button"
+              class="rounded-md bg-black px-8 py-3 text-sm font-semibold text-white shadow-sm hover:text-gray-900 hover:border-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+              Book a consultation
+            </button>
+          </div>
+        </form>
+      </div>
+      <!-- Heading ,Paragraph and Button Ends -->
+      <!-- Hero-Image Start -->
+      <div class="relative lg:col-span-5 lg:mr-10 mt-20  xl:col-span-6 ">
+        <div class="container ">
+          <img src="./images/Illustration.png" alt="image" />
+        </div>
+      </div>
+      <!-- Hero-Image Ends -->
+    </div>
+    <!-- /Main-Div -->
+    <div class="relative lg:col-span-5 lg:mr-24 mt-10 xl:col-span-6 ">
+      <div class="container ">
+        <img src="./images/Logotypes.png" alt="image" />
+      </div>
+    </div>
+  </div>
+  <!-----Hero Section Ends-->
+
+
+  <!--Services page start-->
+  <section id="services" class="mt-20">
+    <!-- main div -->
+    <div class="container flex flex-col md:flex-row mx-auto">
+      <h2
+        class=" ml-8 bg-[#B9FF66] w-36 font-Space Grotes font-semibold tracking-tight text-Black md:text-3xl lg:text-4xl">
+        Services
+      </h2>
+      <p class="ml-8">At our digital marketing agency, we offer a range of services to <br>
+        help businesses grow and succeed online. These services include:</p>
+    </div>
+    <!-- main div end -->
+    <!-- cards-start -->
+    <div class="container flex flex-col md:flex-row mx-auto mt-20 ">
+      <!-- card 1 -->
+      <div
+        class="bg-[#F3F3F3] flex py-4 rounded-3xl	 overflow-hidden border-solid border-1 border-[#191A23] h-60 mr-3 mb-2 md:flex-1 shadow-sm">
+
+        <div>
+          <div class="mb-2">
+            <h4 class="card_title bg-[#B9FF66] ml-10  font-semibold lg:text-3xl ">Search engine <br>optimization</h4>
+            <img src="images/Link.png" alt="image" class="mt-16 ml-4">
+          </div>
+        </div>
+        <div class="basis-1/3 relative ml-10 mt-4">
+          <img src="images/tokyo-magnifier-web-search-with-elements 2.png" alt="burger-1">
+        </div>
+      </div>
+      <!-- second card -->
+      <div
+        class="bg-[#B9FF66] flex py-4 rounded-3xl	 overflow-hidden border-solid border-1 border-[#191A23] h-60 mr-3 mb-2 md:flex-1 shadow-sm">
+
+        <div>
+          <div class="mb-2">
+            <h4 class="card_title bg-white ml-10  font-semibold lg:text-3xl ">Pay-per-click<br>advertising</h4>
+            <img src="images/Link.png" alt="image" class="mt-16 ml-4">
+          </div>
+        </div>
+        <div class="basis-1/3 relative ml-10 mt-4">
+          <img src="images/tokyo-selecting-a-value-in-the-browser-window 1.png" alt="burger-1">
+        </div>
+      </div>
+
+  </section>
+  <!--Services page Ends-->
+
+
+  <!--OUr working process starts-->
+  <section id="our working process">
+    <!--Our working process starts-->
+    <!-- main div -->
+    <div class="container flex flex-col md:flex-row mx-auto mt-20">
+      <h2
+        class=" ml-8 bg-[#B9FF66] w-90 font-Space Grotes font-semibold tracking-tight text-Black md:text-3xl lg:text-4xl">
+        Our Working Process
+      </h2>
+      <p class="ml-8">Step-by-Step Guide to Achieving <br>Your Business Goals</p>
+    </div>
+    <!-- main div end -->
+
+    <!-- cards-start -->
+    <div>
+      <div class="container flex flex-col md:flex-row mx-auto mt-20 ">
+        <!-- card 1 -->
+        <div
+          class="bg-[#B9FF66] flex py-4 rounded-[50px]	 overflow-hidden border-solid border-1 border-[#191A23] h-60 mr-3 mb-2 md:flex-1 shadow-sm">
+
+          <div>
+            <div class="mb-2 flex flex-col md:flex-row mx-auto">
+              <h4 class="card_title bg-[#B9FF66] ml-10  font-semibold lg:text-3xl "><span
+                  class="font-bold text-5xl ">01</span> consultation</h4>
+                  <div>
+              <img src="images/Plus icon (1).png" alt="image" class="ml-[650px]">
+            </div>
+            </div>
+            <hr class="border-solid border-1 border-[#191A23] ml-10 mt-8">
+            <p class="ml-10 mt-8 lg:block hidden">During the initial consultation, we will discuss your business goals and objectives,
+              target audience, and current marketing <br>
+              efforts.This will allow us to understand your needs and tailor our services to best fit your requirements.
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- card-2 -->
+      <div class="container flex flex-col md:flex-row mx-auto mt-10 ">
+        <div
+          class="bg-[#F3F3F3] flex py-5 rounded-[50px]	 overflow-hidden border-solid border-1 border-[#191A23] h-[500[px] mr-3 mb-2 md:flex-1 shadow-sm">
+
+          <div>
+            <div class="mb-2 flex flex-col md:flex-row mx-auto">
+              <h4 class="card_title ml-10  font-semibold lg:text-3xl "><span class="font-bold text-5xl ">02</span>
+                Research and Strategy Development</h4>
+              <img src="images/Plus icon.png" alt="image" class="ml-[300px]">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card-3 -->
+      <div class="container flex flex-col md:flex-row mx-auto mt-10 ">
+        <div
+          class="bg-[#F3F3F3] flex py-5 rounded-[50px]	 overflow-hidden border-solid border-1 border-[#191A23] h-[500[px] mr-3 mb-2 md:flex-1 shadow-sm">
+
+          <div>
+            <div class="mb-2 flex flex-col md:flex-row mx-auto">
+              <h4 class="card_title ml-10  font-semibold lg:text-3xl "><span class="font-bold text-5xl ">03</span>
+                Implementation</h4>
+              <img src="images/Plus icon.png" alt="image" class="ml-[580px]">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card-4 -->
+      <div class="container flex flex-col md:flex-row mx-auto mt-10 ">
+        <div
+          class="bg-[#F3F3F3] flex py-5 rounded-[50px]	 overflow-hidden border-solid border-1 border-[#191A23] h-[500[px] mr-3 mb-2 md:flex-1 shadow-sm">
+
+          <div>
+            <div class="mb-2 flex flex-col md:flex-row mx-auto">
+              <h4 class="card_title ml-10  font-semibold lg:text-3xl "><span class="font-bold text-5xl ">04</span>
+                Monitoring and Optimization</h4>
+              <img src="images/Plus icon.png" alt="image" class="ml-[400px]">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card-5 -->
+      <div class="container flex flex-col md:flex-row mx-auto mt-10 ">
+        <div
+          class="bg-[#F3F3F3] flex py-5 rounded-[50px]	 overflow-hidden border-solid border-1 border-[#191A23] h-[500[px] mr-3 mb-2 md:flex-1 shadow-sm">
+
+          <div>
+            <div class="mb-2 flex flex-col md:flex-row mx-auto">
+              <h4 class="card_title ml-10  font-semibold lg:text-3xl "><span class="font-bold text-5xl ">05</span>
+                Reporting and Communication</h4>
+              <img src="images/Plus icon.png" alt="image" class="ml-[385px]">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- card-6 -->
+      <div class="container flex flex-col md:flex-row mx-auto mt-10 ">
+        <div
+          class="bg-[#F3F3F3] flex py-5 rounded-[50px]	 overflow-hidden border-solid border-1 border-[#191A23] h-[500[px] mr-3 mb-2 md:flex-1 shadow-sm">
+
+          <div>
+            <div class="mb-2 flex flex-col md:flex-row mx-auto">
+              <h4 class="card_title ml-10  font-semibold lg:text-3xl "><span class="font-bold text-5xl ">06</span>
+                Continual Improvement</h4>
+              <img src="images/Plus icon.png" alt="image" class="ml-[485px]">
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+  <!--OUr working process Ends-->
+
+  <!-- Contact Us start -->
+  <section id="contact" class="mt-20 ">
+    <!-- main-1 div -->
+    <div class="container flex flex-col md:flex-row mx-auto mb-20">
+      <h2
+        class=" ml-8 bg-[#B9FF66] w-43 font-Space Grotes font-semibold tracking-tight text-Black md:text-3xl lg:text-4xl">
+        Contact Us
+      </h2>
+      <p class="ml-8">Connect with Us: Let's Discuss Your <br> Digital Marketing Needs</p>
+    </div>
+    <!-- main-1 div end -->
+    <div class="relative w-full bg-[#F3F3F3] mb-[150px]  mr-5 rounded-lg">
+      <!-- Main-2 Div -->
+      <div class="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
+        <!-- Heading ,Paragraph and Button Starts -->
+        <div
+          class="flex flex-col justify-center px-4 py-8 md:py-16 lg:col-span-7 lg:gap-x-4 lg:px-6 lg:py-24 xl:col-span-6">
+          <form action="" class="mt-2 flex items-start space-x-2">
+            <div>
+              <div class="radio-btn">
+                <label>
+                  <input type="radio" name="option" value="option1"> Say Hi
+                </label>
+                <label class="mb-6">
+                  <input type="radio" name="option" value="option1"> Get a quote
+                </label>
+              </div>
+              <div>
+                <p>name</p>
+                <input type="text" placeholder="Name"
+                  class="h-[40px] w-[400px] px-3 border border-black border-[1px] rounded-lg">
+              </div>
+              <div class="mt-4">
+                <p>Email*</p>
+                <input type="text" placeholder="Email"
+                  class="h-[40px] w-[400px] px-3 border border-black border-[1px] rounded-lg">
+              </div>
+              <div class="mt-4 mb-6">
+                <p>Message*</p>
+                <textarea name="name" placeholder="Message" rows="10" cols="48"
+                  class="border border-black border-[1px] px-3 py-2 rounded-lg"></textarea>
+              </div>
+              <button type="button"
+                class="rounded-md w-[400px] bg-black px-8 py-3 text-sm font-semibold text-white shadow-sm hover:text-gray-900 hover:border-gray-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+        <!-- Heading ,Paragraph and Button Ends -->
+        <!-- Hero-Image Start -->
+        <div class="relative lg:col-span-5 lg:mr-10 mt-20  xl:col-span-6 w-[500px] h-[500px] ">
+          <div class="container ">
+            <img src="./images/Mask-group.png" alt="image" />
+          </div>
+        </div>
+        <!-- Hero-Image Ends -->
+      </div>
+      <!-- /Main-Div -->
+
+    </div>
+  </section>
+  <!-- contact Us page Ends -->
+
+  <!-- FOOTER STARTS -->
+  <section id="footer" class="mt-20 bg-[#191A23]  rounded-lg ">
+    <!-- main-1 div -->
+    <div class="container flex flex-col md:flex-row mx-auto mb-2 ">
+      <div class="relative w-full ">
+        <div class="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8 ">
+          <!-- LOGO -->
+          <div class="lg:inline-flex items-center space-x-2">
+            <span>
+              <img src="./images/Logo-footer.png" alt="Logo" class="h-6 mx-auto">
+            </span>  
+          </div>
+          <!-- LOGO -->
+          <!-- LIST ITEMS STARTS -->
+          <div class="lg:block hidden ">
+            <ul class="lg:inline-flex space-x-6 ml-16">
+              <li>
+                <a href="#" class="text-sm  text-white hover:text-gray-900 underline">
+                  About Us
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-sm  text-white hover:text-gray-900 underline">
+                  Services
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-sm  text-white hover:text-gray-900 underline">
+                  Use cases
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-sm  text-white hover:text-gray-900 underline">
+                  Pricing
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-sm  text-white hover:text-gray-900 underline">
+                  Blog
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="lg:hidden text-white">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="h-6 w-6 cursor-pointer">
+              <line x1="4" y1="12" x2="20" y2="12"></line>
+              <line x1="4" y1="6" x2="20" y2="6"></line>
+              <line x1="4" y1="18" x2="20" y2="18"></line>
+            </svg>
+          </div>
+          <div class="col col-sm-6 col-md-3 col-lg-3 hidden lg:block">
+            <div class="icons d-flex gap-3 ml-40 ">
+              <i class="bi bi-linkedin text-white text-3xl cursor-pointer "></i>
+              <i class="bi bi-facebook text-white text-3xl cursor-pointer"></i>
+              <i class="bi bi-twitter-x text-white text-3xl cursor-pointer"></i>
+            </div>
+
+          </div>
+          <!-- LIST ITEMS ENDS -->
+        </div>
+      </div>
+    </div>
+    <!-- next-section starts -->
+    <div class="relative max-w-full ml-14">
+      <!-- Main-Div -->
+      <div class="mx-auto max-w-5xl lg:grid lg:grid-cols-12 lg:grid-rows-1 ">
+        <!-- Heading ,Paragraph and Button Starts -->
+        <div class="flex flex-col justify-center py-8 md:py-16 lg:col-span-7 lg:gap-x-2 lg:px-4 lg:py-24 xl:col-span-6">
+          <div class="flex max-w-max items-center space-x-2 ">
+
+          </div>
+          <h1
+            class=" text-3xl rounded-lg font-Space Grotes font-semibold tracking-tight text-Black bg-[#B9FF66] w-40 md:text-2xl lg:text-3xl">
+            Contact us:
+          </h1>
+          <p class="mt-4 text-[15px] text-white w-80">
+            Email: info@positivus.com
+          </p>
+          <p class="mt-4 text-[15px] text-white">
+            Phone: 555-567-8901
+          </p>
+          <p class="mt-4 text-[15px] text-white w-[250px]">
+            Address: 123 Main St, <br>
+            Moonstone City, Stardust State 12345
+          </p>
+
+        </div>
+        <!-- Heading ,Paragraph and Button Ends -->
+        <!-- Hero-Image Start -->
+        <div class="relative  lg:col-span-5 mt-20  xl:col-span-6  ">
+          <div class="container w-[360px] h-[194px] mb-10 bg-[#292A32] rounded-lg  ">
+            <input type="text" placeholder="Email"
+              class="rounded-lg px-4 py-3 mt-4 bg-[#292A32] text-white ml-12 mr-2 border border-white border-[1px]  ">
+            <button type="button"
+              class="rounded-md bg-[#B9FF66] px-11 mt-8 py-3 text-md ml-12 font-semibold text-black shadow-sm hover:text-gray-900 hover:border-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black">
+              Book a consultation
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- /Main-Div -->
+    </div>
+    <!-- <hr class="border-[#FFFFFF] mt-4 w-[160px]"> -->
+<div class=" inline-flex ">
+<div class="para text-white ml-24">
+  <p><span>©</span>2023 Positiveus.All Rights Reserved.</p>
+</div>
+  <div class="link mb-10 ml-10 underline text-white">
+    <a href="#">Privacy Policy</a>
+  </div>
+</div>
+  </section>
+  <!-- FOOTER ENDs -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
